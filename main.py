@@ -1,5 +1,10 @@
 def BoubleSort(arr:list) -> list:
-    pass
+    for i in range(0, len(mass) - 1):
+        for j in range(len(mass) - 1):
+            if (mass[j] > mass[j + 1]):
+                res = mass[j]
+                mass[j] = mass[j + 1]
+                mass[j + 1] = res
 
 
 
