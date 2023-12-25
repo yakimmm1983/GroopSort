@@ -9,7 +9,9 @@ def BoubleSort(arr:list) -> list:
 
 
 def Reverse(arr:list) -> list:
-    pass
+    for i in range(len(mass) // 2):
+    mass[i], mass[-1 - i] = mass[-1 - i], mass[i]
+
 
 
 
